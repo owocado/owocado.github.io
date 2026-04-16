@@ -1,0 +1,18 @@
+# Site configuration
+title: owocado
+description: Welcome to owocado's GitHub Pages
+baseurl: ""
+url: "https://owocado.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .github/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
